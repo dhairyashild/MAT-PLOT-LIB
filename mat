@@ -1,3 +1,19 @@
+plt.plot(var1, va2)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################################################################################################################################
 boring data into colorful  
 
 python libs
@@ -11,4 +27,21 @@ why need
 -90 % bigdata project fail- if u dont explore data visually so bad models avoided
 
 
-30 min
+
+# sample charts
+
+import matplotlib.pyplot as plt
+x= [1,2,3,4,5   ]
+y= [11,3,33,23,19]
+
+plt.plot(x,y)    
+plt.show()
+
+1.7.17  ---pyplot vs ooa diff    ----gpt
+
+Feature	                 Pyplot (Functional)                 	Object-Oriented (OO)
+
+Control	                Less flexible for complex plots	       More control for intricate plots
+Verbosity	              Shorter code for simple plots	        More explicit code structure
+Management	            Harder for complex figures	            Easier for multi-panel plots
+Use Cases	               Quick exploration, simple plots	       Complex, customized visuals
